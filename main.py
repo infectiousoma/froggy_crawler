@@ -39,7 +39,10 @@ for message in messages:
         frog_links.append(link)
         print(link)
 
-print(f"Found {len(frog_links)} frog links with {len(set(frog_links))} unique links")
+
+frog_links = list(set(frog_links))
+
+print(f"Found {len(frog_links)} frog links")
 
 from selenium import webdriver
 from selenium.webdriver.common.by import By
