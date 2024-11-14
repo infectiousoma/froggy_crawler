@@ -4,4 +4,4 @@ Running froggy.py will add every frog code from the list. It doesn't add creator
 
 frog_finder clicks the search swamp button every 15 minutes, but for some reason it errors out. It fails when I manually click the button too.
 
-built by chatgpt
+built by us!
